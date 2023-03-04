@@ -1,390 +1,444 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="master.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>KHALID COFFE</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+
+
 </head>
+
 <body>
 
-    <nav>
-        <img src="images/hhh.png" alt="">
-        <div class="navigation">
-            <ul>
-                <i id="menu-close" class="fa-solid fa-xmark"></i>
-                <li><a class="active"   href="index.html">Home</a></li>
-                <li><a   href="about.html">About</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="course.html">Courses</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <img id="menu-btn" src="images/menu.png" alt="">
-        </div>
-            <i class="fa-solid fa-magnifying-glass"></i>
-    </nav>
 
-    <section id="home">
-        <h2>Be millionaire with TechEduca</h2>
-        <p>On this page, you will find free or paid courses in all disciplines and all skilled
-            professors in scientific and technological disciplines. A company supported by a
-            group of universities and an internationally recognized diploma</p>
-    <div class="btn">
-        <a class="blue" href="#">learn more</a>
-        <a class="yellow" href="#">Visit Courses</a>
-    </div>
-</section>
 
-<sction id="features">
-    <h1>awsesome Features</h1>
-    <p>Replenish man have thing gathering lights yielding shall you</p>
-    <div class="fea-base">
-        <div class="fea-box">
+    <header class="header">
 
-            <i class="fa-solid fa-graduation-cap"></i>
-            <h3>Scholarship facility</h3>
-            <p>Obtaining a scholarship to facilitate academic life and motivate students</p>
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
         </div>
 
-        <div class="fea-box">
-            <i class="fa-solid fa-user-graduate"></i>
-            <h3>Dell online course</h3>
-            <p>Obtaining a certificate for job market theire firament w'ont great heaven </p>
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
         </div>
 
-        <div class="fea-box">
-            <i class="fa-solid fa-award"></i>
-            <h3>Global certification</h3>
-            <p>our certificate is acceptable for job in all the world</p>
-        </div>
-    </div>
-</sction>
-
-
-<section id="course">
-    <h1>our popular courses</h1>
-    <p>be millionnaire with us , be proud to yourself</p>
-    <div class="course-box">
-        <div class="courses">
-            <img src="images/c1.jpg" alt="">
-            <div class="details">
-                <span>updated 1/03/2023</span>
-                <h6>Javascript beginners course</h6>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <span>(239)</span>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-1.png" alt="">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">$15.99/-</div>
                 </div>
             </div>
-            <div class="cost">
-                $49.99
-            </div>
-            <div class="icon">
-                <i class="fas fa-heart"></i>
-                <i class="fas fa-cart-shopping"></i>
-            </div>
-        </div>
-
-
-        <div class="courses">
-            <img src="images/c2.jpg" alt="">
-            <div class="details">
-                <span>updated 1/03/2023</span>
-                <h6>Javascript beginners course</h6>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <span>(239)</span>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-2.png" alt="">
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">$15.99/-</div>
                 </div>
             </div>
-            <div class="cost">
-                $49.99
-            </div>
-            <div class="icon">
-                <i class="fas fa-heart"></i>
-                <i class="fas fa-cart-shopping"></i>
-            </div>
-        </div>
-
-        <div class="courses">
-            <img src="images/c3.jpg" alt="">
-            <div class="details">
-                <span>updated 1/03/2023</span>
-                <h6>Javascript beginners course</h6>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <span>(239)</span>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-3.png" alt="">
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">$15.99/-</div>
                 </div>
             </div>
-            <div class="cost">
-                $49.99
-            </div>
-            <div class="icon">
-                <i class="fas fa-heart"></i>
-                <i class="fas fa-cart-shopping"></i>
-            </div>
-        </div>
-
-
-        <div class="courses">
-            <img src="images/c4.jpg" alt="">
-            <div class="details">
-                <span>updated 1/03/2023</span>
-                <h6>Javascript beginners course</h6>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <span>(239)</span>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-4.png" alt="">
+                <div class="content">
+                    <h3>cart item 04</h3>
+                    <div class="price">$13$/-</div>
                 </div>
             </div>
-            <div class="cost">
-                $49.99
-            </div>
-            <div class="icon">
-                <i class="fas fa-heart"></i>
-                <i class="fas fa-cart-shopping"></i>
-            </div>
+            <a href="#" class="btn">checkout now</a>
         </div>
 
+    </header>
+
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>fresh coffee in the morning from khalid coffe shop</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat labore, sint cupiditate distinctio
+                tempora reiciendis.</p>
+            <a href="#" class="btn">get yours now</a>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about</span> us </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/about-img.jpeg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>what makes our coffee special?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus qui ea ullam, enim tempora
+                    ipsum fuga alias quae ratione a officiis id temporibus autem? Quod nemo facilis cupiditate. Ex, vel?
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit amet enim quod veritatis, nihil
+                    voluptas culpa! Neque consectetur obcaecati sapiente?</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+
+        </div>
+
+    </section>
 
 
 
-<div class="courses">
-            <img src="images/c5.jpg" alt="">
-            <div class="details">
-                <span>updated 1/03/2023</span>
-                <h6>Javascript beginners course</h6>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <span>(239)</span>
+    <section class="menu" id="menu">
+
+        <h1 class="heading"> our <span>menu</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/menu-1.png" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-2.png" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-3.png" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-4.png" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-5.png" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-6.png" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> our <span>products</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
                 </div>
-            </div>
-            <div class="cost">
-                $49.99
-            </div>
-            <div class="icon">
-                <i class="fas fa-heart"></i>
-                <i class="fas fa-cart-shopping"></i>
-            </div>
-        </div>
-
-
-        <div class="courses">
-            <img src="images/c6.jpg" alt="">
-            <div class="details">
-                <span>updated 1/03/2023</span>
-                <h6>Javascript beginners course</h6>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <span>(239)</span>
+                <div class="image">
+                    <img src="images/product-1.png" alt="">
                 </div>
-            </div>
-            <div class="cost">
-                $49.99
-            </div>
-            <div class="icon">
-                <i class="fas fa-heart"></i>
-                <i class="fas fa-cart-shopping"></i>
-            </div>
-            </div>
-        </div>
-
-
-    </div>
-</section>
-
-<section id="registration">
-    <div class="reminder">
-        <p>Get 100 online courses for free</p>
-        <h1>register to get it</h1>
-        <div class="time">
-
-            <div class="date">
-                18 <br> days
-            </div>
-
-            
-            <div class="date">
-                23 <br> hour
-            </div>
-
-            
-            <div class="date">
-                06 <br> mins 
-            </div>
-
-            
-            <div class="date">
-                58 <br> secs
-            </div>
-        </div>
-    </div>
-
-    <div class="form">
-        <h3>create free acoount now</h3>
-        <input type="text"  name="name"  placeholder="enter your name">
-        <input type="email"  name="email"  placeholder="enter your email"> 
-        <input type="number"  name="name"  placeholder="your Number">
-        <div class="btn">
-            <a href="#" class="yellow">submit form</a>
-        </div>
-    </div>
-    
-    
-</section>
-
-<section id="experts">
-    <h1>community experts</h1>
-    <p>we have the best teavhers are interessed certificate</p>
-    <div class="expert-box">
-        <div class="profile">
-            <img src="images/R1 (2).jpeg" alt="">
-            <h6>Khalid Moumne</h6>
-            <p>front end devoloper</p>
-            <div class="pro-links">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-youtube"></i>
-            </div>
-        </div>
-
-
-            <div class="profile">
-                <img src="images/pro1.webp" alt="">
-                <h6>milani closa</h6>
-                <p>python & algorithm expert</p>
-                <div class="pro-links">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-youtube"></i>
-                </div>
-            </div>
-
-                <div class="profile">
-                    <img src="images/pro2.webp" alt="">
-                    <h6>majd hatim</h6>
-                    <p>data design </p>
-                    <div class="pro-links">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-youtube"></i>
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
                     </div>
+                    <div class="price">$15.99 <span>$20.99</span></div>
                 </div>
+            </div>
 
-    
-                    <div class="profile">
-                        <img src="images/mh.jpeg" alt="">
-                        <h6>Mohamed izourn </h6>
-                        <p>Full stack devoloper</p>
-                        <div class="pro-links">
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-instagram"></i>
-                            <i class="fab fa-youtube"></i>
-                        </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
                     </div>
-    </div>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                </div>
+            </div>
 
-</section>
-
-
-<footer>
-    <div class="footer-col">
-        <h3>Top Products</h3>
-        <li>manage reputations</li>
-        <li>power tools</li>
-        <li>managed website</li>
-        <li>marketing service</li>
-    </div>
-
-    <div class="footer-col">
-        <h3>Quick links</h3>
-        <li>Jobs</li>
-        <li>brand assets</li>
-        <li>investor relations</li>
-        <li>terms of services</li>
-    </div>
-
-    
-    <div class="footer-col">
-        <h3>Features</h3>
-        <li>manage reputation</li>
-        <li>Power tools</li>
-        <li>managed website</li>
-        <li>marketing service</li>
-    </div>
-
-    
-    <div class="footer-col">
-        <h3>resources</h3>
-        <li>guides</li>
-        <li>research</li>
-        <li>experts</li>
-        <li>marketing service</li>
-    </div>
-
-    
-    <div class="footer-col">
-        <h3>nwesletter</h3>
-        <p>you can trust us. we only send promp offers</p>
-        <div class="subscribe">
-            <input type="email" placeholder="Your email">
-            <a href="#" class="yellow">SUBSCRIBE</a>
-        </div>
-    </div>
-
-    <div class="copyright">
-        <p>copyright &copy;2023 |all rights reserved| this site created by khalid moumne</p>
-
-                <div class="pro-links">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-youtube"></i>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-3.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$15.99 <span>$20.99</span></div>
                 </div>
             </div>
 
         </div>
-    </div>
+
+    </section>
 
 
-</footer>
+    <section class="review" id="review">
 
-<script>
-$('#menu-btn').click(function() {
-        $('nav .navigation ul').addClass('active')
-    });
+        <h1 class="heading"> customer's <span>review</span> </h1>
 
-    $('#menu-close').click(function() {
-        $('nav .navigation ul').removeClass('active')
-    });
+        <div class="box-container">
 
-    
-</script>
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi
+                    nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus
+                    vel? Nemo.</p>
+                <img src="images/pic-1.png" class="user" alt="">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi
+                    nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus
+                    vel? Nemo.</p>
+                <img src="images/pic-2.png" class="user" alt="">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi
+                    nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus
+                    vel? Nemo.</p>
+                <img src="images/pic-3.png" class="user" alt="">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
 
 
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> us </h1>
+
+        <div class="row">
+
+            <iframe class="map"
+                src="https://www.google.com/maps/place/%D8%AA%D8%A7%D8%B2%D9%86%D8%A7%D8%AE%D8%AA%E2%80%AD/@30.5745895,-7.2031109,18z/data=!4m6!3m5!1s0xdba511398779f83:0x1c725efcc553680a!8m2!3d30.5744946!4d-7.2037492!16s%2Fg%2F11g60ghr1l"
+                allowfullscreen="" loading="lazy"></iframe>
+
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="number">
+                </div>
+                <input type="submit" value="contact now" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> our <span>blogs</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-1.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">tasty and refreshing coffee</a>
+                    <span>by khalid / 22st december, 2022</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-2.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">tasty and refreshing coffee</a>
+                    <span>by khalid / 22st may, 2022</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-3.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">tasty and refreshing coffee</a>
+                    <span>by admin / 21st may, 2021</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="footer">
+
+        <div class="share">
+            <a class="fab fa-facebook-f" href="https://www.facebook.com/khalid.moumone.5" target="_blank"></a>
+            <a class="fab fa-twitter" href="htt"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">menu</a>
+            <a href="#">products</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+            <a href="#">blogs</a>
+        </div>
+
+        <div class="credit">created by <span>mr. khalid</span> | all rights reserved</div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
