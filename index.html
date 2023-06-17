@@ -373,15 +373,17 @@
 </footer>
 
 <script>
-$('#menu-btn').click(function() {
-        $('nav .navigation ul').addClass('active')
-    });
+    const menuBtn = document.getElementById('menu-btn')
+    const closeMenuBtn = document.getElementById('menu-close')
+    const navList = document.querySelector('nav .navigation ul')
 
-    $('#menu-close').click(function() {
-        $('nav .navigation ul').removeClass('active')
-    });
+    menuBtn.addEventListener('click', () => {
+        navList.classList.add('active')
+    })
 
-    
+    closeMenuBtn.addEventListener('click', () => {
+        navList.classList.add('active')
+    })
 </script>
 
 
